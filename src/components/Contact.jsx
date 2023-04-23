@@ -16,12 +16,12 @@ const BasicExample = () => {
             <Col md="6">
               <Form.Group className="mb-3" controlId="name">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter name" />
+                <Form.Control type="text" placeholder="Enter name" autoComplete="off" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="email">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Control type="email" placeholder="Enter email" autoComplete="off" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="message">

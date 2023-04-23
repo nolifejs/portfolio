@@ -30,10 +30,14 @@ h1 {
 
 section {
   padding-top: 10rem;
+  padding-left: 6rem;
+  margin-right: 100px;
   padding-bottom: 10rem;
 }
-
-#about,
-#skills {
-  width: 100%;
+@media screen and (max-width: 390px) {
+  #contact,
+  #projects {
+    text-align: center;
+    padding: 10rem -10rem;
+  }
 }
